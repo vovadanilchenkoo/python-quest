@@ -171,3 +171,4 @@ pre.q-code { background: #0f2a28; color: #e6fff8; border-radius: 10px; padding: 
   .q-title { font-size: 1.05rem; }
 }
 @media (prefers-reduced-motion: reduce) { .q-pbar > span { transition: none; } * { scroll-behavior: auto !important; } }
+pre, code, .q-input, .q-sel, .q-order, .q-code-box { font-variant-ligatures: none; font-feature-settings: "calt" 0, "liga" 0; }
